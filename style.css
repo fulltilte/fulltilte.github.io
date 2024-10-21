@@ -201,12 +201,14 @@ footer p {
     }
 
     .project img {
-        max-width: 100px;
-        height: 100px;
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
+        margin: 0;
     }
 
     .project-info {
-        text-align: center;
+        text-align: justify;
     }
 }
 
@@ -224,8 +226,9 @@ footer p {
     }
 
     .project img {
-        max-width: 80px;
-        height: 80px;
+        width: 100%;
+        max-width: 600px;
+        height: 100%;
     }
 
     .skills .skill-list li {
