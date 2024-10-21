@@ -4,6 +4,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/fulltilte)
 [![Telegram](https://img.shields.io/badge/Telegram-%2326A5E4.svg?&style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/fulltilte)
 [![Email](https://img.shields.io/badge/Email-d4zzy%40bk.ru-FF0000?style=for-the-badge)](mailto:d4zzy@bk.ru)
+[![Phone](https://img.shields.io/badge/Phone-%2B7%20903%20149%205814-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+79031495814)
 
 ---
 
@@ -27,9 +28,3 @@
 - **Основы Kubernetes**
 
 ---
-
-## 📫 Контакты
-
-- **Email**: [d4zzy@bk.ru](mailto:d4zzy@bk.ru)
-- **Телефон**: +7 903 149 5814
-- **GitHub**: [github.com/d4zzy](https://github.com/d4zzy)
