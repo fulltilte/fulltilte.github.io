@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мое Резюме</title>
+    <title>Иван Шведов — Golang Developer</title>
+    <meta name="description" content="Иван Шведов — Junior+/Middle Golang Developer. Go, Vue 3 + TypeScript, REST API, gRPC, Docker, PostgreSQL, Redis, Kubernetes. Проекты и опыт работы.">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,21 +13,21 @@
         <header>
             <div class="profile">
                 <img src="img/profile_photo.jpeg" alt="Фото профиля">
-                <h1>Иван Шведов, 21</h1>
-                <p class="title">Junior Golang Developer / Junior Fullstack Developer</p>
+                <h1>Иван Шведов</h1>
+                <p class="title">Junior+/Middle Golang Developer /// Junior+ FullStack Developer</p>
                 <div class="contact-info">
                     <p>Email: <a href="mailto:d4zzy@bk.ru">d4zzy@bk.ru</a></p>
-                    <p>Телефон: +7 903 149 5814</p>
+                    <p>Телефон: <a href="tel:+79031495814">+7 903 149‑58‑14</a></p>
                 </div>
 
                 <div class="social-icons">
-                    <a href="https://t.me/fulltilte" target="_blank" aria-label="Telegram">
+                    <a href="https://t.me/fulltilte" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
                         <img src="img/telegram.png" alt="Telegram">
                     </a>
-                    <a href="https://github.com/fulltilte" target="_blank" aria-label="GitHub">
+                    <a href="https://github.com/fulltilte" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                         <img src="img/github.png" alt="GitHub">
                     </a>
-                    <a href="https://vk.com/soezdude" target="_blank" aria-label="VK">
+                    <a href="https://vk.com/soezdude" target="_blank" rel="noopener noreferrer" aria-label="VK">
                         <img src="img/vk.png" alt="VK">
                     </a>
                 </div>
@@ -36,33 +37,49 @@
         <main>
             <section class="about">
                 <h2>Обо мне</h2>
-                <p>Меня зовут Иван, я занимаюсь разработкой на Go, Python и PHP 7/8 более года и заинтересован
-                     в позиции Junior Golang-разработчика или Junior Fullstack-разработчика. 
-                     Уверенно работаю со структурами данных и алгоритмами, Unix (Linux, macOS), 
-                     REST и Docker, а также имею базовые знания о gRPC, Kafka, Redis и Kubernetes. 
-                     Моя цель — развиваться в сфере разработки и постоянно совершенствовать свои навыки. 
-                     Я стремлюсь к улучшению качества кода, освоению новых технологий и вкладу в успешные проекты компании.</p>
+                <p>Я — Golang‑разработчик, фокусируюсь на создании надёжных бэкенд‑сервисов и удобных веб‑интерфейсов.
+                    Имею опыт проектирования и интеграции REST и gRPC API, работы с PostgreSQL/Redis,
+                    построения ModuleFederation на Vue 3 + TypeScript. Быстро погружаюсь в контекст,
+                    беру ответственность за результат и последовательно улучшаю качество кода.
+                    Хочу развиваться в направлении бэкенда: интересно проектировать отказоустойчивые и высоконагруженные
+                    сервисы, оптимизировать производительность и развивать инженерные практики (тестирование, CI/CD и прочее).
+                </p>
             </section>
 
             <section class="skills">
                 <h2>Профессиональные навыки</h2>
                 <ul class="skill-list">
                     <li>Go</li>
-                    <li>Docker</li>
+                    <li>Docker/docker-compose</li>
                     <li>REST API</li>
-                    <li>Веб-разработка</li>
-                    <li>PHP 7/8</li>
-                    <li>Python</li>
-                    <li>PostgreSQL</li>
-                    <li>MySQL</li>
-                    <li>Unix (Linux, macOS)</li>
-                    <li>GIT</li>
-                    <li>ООП</li>
-                    <li>Базовые структуры данных и алгоритмы</li>
+                    <li>openapi-generator-cli</li>
+                    <li>gRPC</li>
+                    <li>Vue3 + TypeScript</li>
+                    <li>ModuleFederation</li>
+                    <li>PostgreSQL (TimescaleDB)</li>
+                    <li>Redis</li>
+                    <li>Grafana</li>
+                    <li>Loki</li>
+                    <li>Promtail</li>
+                    <li>Git</li>
+                    <li>Структуры данных и алгоритмы</li>
                     <li>Основы Kafka</li>
-                    <li>Основы gRPC</li>
-                    <li>Основы Redis</li>
                     <li>Основы Kubernetes</li>
+                </ul>
+                <h2>Библиотеки Go</h2>
+                <ul class="skill-list">
+                    <li>Стандартная библиотека Go</li>
+                    <li>chi</li>
+                    <li>gin</li>
+                    <li>gorilla/mux</li>
+                    <li>pgx</li>
+                    <li>golang-migrate/migrate</li>
+                    <li>go-redis</li>
+                    <li>golang-jwt</li>
+                    <li>grpc и proto</li>
+                    <li>eclipse/paho.mqtt.golang</li>
+                    <li>testify</li>
+                    <li>Разработка собственных библиотек</li>
                 </ul>
                 <h2>Личные навыки</h2>
                 <ul class="skill-list">
@@ -80,22 +97,32 @@
             <section class="experience">
                 <h2>Опыт работы</h2>
                 <article class="job">
+                    <h3>ООО ПроЭнерджи (DigiCity)</h3>
+                    <p class="job-title">Junior FullStack Developer — 28.10.2024 - ...</p>
+                    <p>Разработка и поддержка внутренних веб‑сервисов и библиотек на Go;
+                        создание ModuleFederation на Vue 3 + TypeScript; проектирование и интеграция REST/gRPC API;
+                        работа с PostgreSQL и Redis; контейнеризация в Docker; настройка логирования и мониторинга (Grafana, Loki, Promtail);
+                        участие в код‑ревью и написании технической документации.
+                        Более подробно готов рассказать на собеседовании.
+                    </p>
+                </article>
+
+                <article class="job">
                     <h3>ОКБ Аэрокосмические системы</h3>
                     <p class="job-title">Младший специалист — 25.09.2023 - 03.10.2024</p>
-                    <p>Занимался планированием, размещением заказов на комплектующие для самолетов, контролем их поставки и расхода, а также организацией складских операций и отчетности.</p>
+                    <p>Планирование и учет комплектующих, взаимодействие с поставщиками, контроль поставок и расхода, организация складских операций и отчетности.</p>
                 </article>
             </section>
 
             <section class="projects">
-                <h2>Проекты</h2>
-
+                <h2>Учебные проекты</h2>
                 <div class="project">
                     <div class="project-info">
                         <h3>Генератор JWT токенов</h3>
                         <p>Данный проект реализует сервис генерации JWT (JSON Web Tokens) на языке Go. 
                             Он использует маршрутизатор Chi и PostgreSQL для работы с базой данных, 
                             а также Docker Compose для контейнеризации сервиса и БД.</p>
-                        <p><a href="https://github.com/fulltilte/authService-Golang-JWT" target="_blank">Ссылка на GitHub</a></p>
+                        <p><a href="https://github.com/fulltilte/authService-Golang-JWT" target="_blank" rel="noopener noreferrer">Ссылка на GitHub</a></p>
                     </div>
                 </div>
 
@@ -105,52 +132,7 @@
                         <p>Данный проект реализует сервис музыкальной библиотеки с REST API на языке Go. 
                             Он использует фреймворк Gin для маршрутизации запросов, PostgreSQL для хранения данных, 
                             а также Docker для контейнеризации и Logrus для логирования.</p>
-                        <p><a href="https://github.com/fulltilte/musicLibrary-Golang-REST" target="_blank">Ссылка на GitHub</a></p>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <img src="img/tgbot.png" alt="Скриншот проекта 2">
-                    <div class="project-info">
-                        <h3>Телеграм-бот для Университета</h3>
-                        <p>Проект реализует телеграм-бота на Python, 
-                            оптимизируя процесс обучения для студентов заочной формы и повышая эффективность работы преподавателей 
-                            и учебной части. В основе бота — библиотека Aiogram для взаимодействия с Telegram Bot API, 
-                            Aiohttp для асинхронной обработки запросов, Aiosqlite для управления базой данных SQLite, 
-                            APScheduler для автоматизации задач, 
-                            а также Google-auth и gspread для интеграции с Google Sheets и автоматизированного парсинга данных.</p>
-                        <p><a href="https://github.com/fulltilte/TP-Zaobot" target="_blank">Ссылка на GitHub</a></p>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <img src="img/spasite.jpg" alt="Скриншот проекта 2">
-                    <div class="project-info">
-                        <h3>Сайт с Figma (SPA)</h3>
-                        <p>Данный проект реализует одностраничное приложение (SPA) на языке JavaScript. В основе сайта - HTML5, CSS3, JS, Bootstrap 5 и Yandex Maps API.</p>
-                        <p><a href="https://github.com/fulltilte/SPA-site" target="_blank">Ссылка на GitHub</a></p>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <img src="img/fullstacksite.png" alt="Скриншот проекта 2">
-                    <div class="project-info">
-                        <h3>Сайт Ремонта техники</h3>
-                        <p>Данный проект реализует Fullstack сайт Ремонт техники "FixTech". В основе сайта - HTML5, CSS3, PHP7, AJAX, JS, PostgreSQL, авторизация через сессии.</p>
-                        <p><a href="https://github.com/fulltilte/fixTech-WebApp" target="_blank">Ссылка на GitHub</a></p>
-                    </div>
-                </div>
-
-                <div class="project">
-                    <div class="project-info">
-                        <h3>Собственная реализация структур данных</h3>
-                        <p>Данный проект представляет собой собственную реализацию различных структур данных на языке C#. 
-                            В нем реализованы ключевые структуры данных по принципам ООП, такие как стек, односвязный и двусвязный списки, 
-                            а также деревья, включая бинарное дерево поиска (Binary Tree), 
-                            АВС-дерево и префиксное дерево (Prefix Tree). Каждая структура данных поддерживает основные операции, 
-                            такие как вставка, удаление и поиск, 
-                            что позволяет эффективно манипулировать данными и организовывать их для решения различных задач.</p>
-                        <p><a href="https://github.com/fulltilte/saod2k" target="_blank">Ссылка на GitHub</a></p>
+                        <p><a href="https://github.com/fulltilte/musicLibrary-Golang-REST" target="_blank" rel="noopener noreferrer">Ссылка на GitHub</a></p>
                     </div>
                 </div>
             </section>
@@ -158,12 +140,21 @@
             <section class="education">
                 <h2>Образование</h2>
                 <p>ГУ "Дубна" — Бакалавриат / Информатика и вычислительная техника (2021 – 2025)</p>
+                <p>ГУ "Дубна" — Магистратура / Бизнес-аналитика и интеллектуальный анализ данных (2025 – 2027)</p>
             </section>
         </main>
 
         <footer>
-            <p>&copy; 2024 Иван Шведов. Все права защищены.</p>
+            <p>&copy; <span id="current-year">2025</span> Иван Шведов. Все права защищены.</p>
         </footer>
     </div>
+    <script>
+        (function() {
+            var el = document.getElementById('current-year');
+            if (el) {
+                el.textContent = new Date().getFullYear();
+            }
+        })();
+    </script>
 </body>
 </html>
